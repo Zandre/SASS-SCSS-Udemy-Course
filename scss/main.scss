@@ -1,5 +1,8 @@
-@import "variables";
-@import "mixins";
+@import "partials/variables";
+@import "partials/mixins";
+
+@include google-font("Alegreya+Sans");
+@include google-font("Titillium+Web");
 
 
 @include fancy-links;
@@ -10,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  	font-family: $headline-font
+  	font-family: $headline-font;
 }
 
 h2 {
