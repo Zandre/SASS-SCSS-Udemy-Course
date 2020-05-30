@@ -11,13 +11,14 @@ a {
   color: red; }
 
 .critical-error {
-  bottom: 1pm solid red;
+  bottom: 1px solid red;
   font-weight: bold; }
 
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
-  color: #222222;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  color: #fff;
+  background-color: #22222a; }
   @media only screen and (max-width: 960px) {
     body {
       font-size: 125%; } }
@@ -33,9 +34,9 @@ p {
   font-family: "Alegreya Sans", Arial, sans-serif; }
 
 a {
-  color: #f27731; }
+  color: #c24721; }
   a:hover {
-    color: #ca510d; }
+    color: #812f16; }
 
 .sub-title {
   font-style: italic; }
@@ -43,31 +44,33 @@ a {
 .sub-title {
   font-size: 1.25em; }
 
-.warning-button, .cta-button, .super-cta-button {
-  background-color: orange;
+.warning-button {
+  background-color: #698932;
   color: #fff;
   padding: 8px 12px; }
-  .warning-button:hover, .cta-button:hover, .super-cta-button:hover {
-    background-color: #ffb733; }
+  .warning-button:hover {
+    background-color: #86ae40; }
 
 .cta-button, .super-cta-button {
+  background-color: #698932;
+  color: #fff;
+  padding: 8px 12px;
   border-radius: 6px;
   font-weight: bold; }
+  .cta-button:hover, .super-cta-button:hover {
+    background-color: #86ae40; }
 
 .super-cta-button {
   font-size: 1.25em; }
 
-* html body {
-  font-size: 125%; }
-
 #header {
-  border-radius: 8px;
-  border: 1px solid #999;
-  box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
-  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
-  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
   height: 60px;
-  background-color: #170a48; }
+  background-color: #42424a; }
   #header #main-menu li {
     display: inline; }
   #header #main-menu a {
@@ -98,10 +101,12 @@ a {
       padding: 1em 1.25em;
       border-bottom: 1px dashed #999; }
       #main #sidebar li:hover {
-        background-color: #efefef; }
+        background-color: #c24721; }
 
 #footer {
+  clear: both;
   height: 90px;
-  background-color: #ccf962; }
+  background-color: #698932;
+  border-top: 5px solid #3e511e; }
 
 /*# sourceMappingURL=main.css.map */
